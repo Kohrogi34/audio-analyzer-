@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>音声解析</title>
+  <style>
+    canvas {
+      display: block;
+      background-color: #333;
+      margin: 10px auto;
+      border: 1px solid #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>音声解析</h1>
+  <button id="start">Start</button>
+  <button id="stop">Stop</button>
+  <canvas id="volume" width="800" height="100"></canvas>
+  <canvas id="frequency" width="800" height="256"></canvas>
+  <script src="audio_analyzer.js"></script>
+</body>
+</html>
