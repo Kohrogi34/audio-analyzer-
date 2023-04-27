@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Analyzer</title>
+  <style>
+    canvas {
+      display: block;
+      background-color: #333;
+      margin: 10px auto;
+      border: 1px solid #555;
+    }
+    body {
+      background-color: black;
+      text-align: center; /* ここでテキストの中央揃えを設定 */
+    }
+    h1 {
+      color: white;
+    }
+    button {
+      color: black;
+      width: 150px;
+      height: 50px;
+    }
+    canvas {
+      display: block;
+      background-color: #333;
+      margin: 1px auto;
+      margin-top: 15px;
+      border: 1px solid #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Audio Analyzer</h1>
+  <button id="start">Start</button>
+  <button id="stop">Stop</button>
+
+  <canvas id="volume" width="800" height="100"></canvas>
+  <canvas id="frequency" width="800" height="256"></canvas>
+  <script src="audio_analyzer.js"></script>
+</body>
+</html>
